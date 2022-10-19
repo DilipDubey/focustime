@@ -41,6 +41,7 @@ export default function App() {
         setFocusHistory(JSON.parse(history));
       }
     } catch (e) {
+      console.log("test1")
       console.log(e);
     }
   };
